@@ -20,6 +20,27 @@
     },
     "m": []
    }
+  },
+  {
+   "hashToLeaf": {
+    "sjNwmYp951M482qDP9DWQQ==": {
+     "text": "Documentation",
+     "desc": "Documentation heading"
+    }
+   },
+   "filepath": "src/components/TheWelcome/useI18n.ts",
+   "line_beg": 4,
+   "col_beg": 31,
+   "line_end": 4,
+   "col_end": 76,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "Documentation heading",
+     "text": "Documentation"
+    },
+    "m": []
+   }
   }
  ],
  "childParentMappings": {}

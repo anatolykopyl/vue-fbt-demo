@@ -5,6 +5,9 @@ import ToolingIcon from '../icons/IconTooling.vue'
 import EcosystemIcon from '../icons/IconEcosystem.vue'
 import CommunityIcon from '../icons/IconCommunity.vue'
 import SupportIcon from '../icons/IconSupport.vue'
+import {useI18n} from './useI18n'
+
+const {documentationHeading} = useI18n()
 </script>
 
 <template>
@@ -12,7 +15,7 @@ import SupportIcon from '../icons/IconSupport.vue'
     <template #icon>
       <DocumentationIcon />
     </template>
-    <template #heading>Documentation</template>
+    <template #heading>{{documentationHeading}}</template>
 
     Vue’s
     <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a>
