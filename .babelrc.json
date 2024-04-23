@@ -1,6 +1,7 @@
 {
   "plugins": [
     "babel-plugin-fbt",
-    "babel-plugin-fbt-runtime"
+    "babel-plugin-fbt-runtime",
+    "@babel/plugin-transform-typescript"
   ]
 }
