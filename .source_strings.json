@@ -1,0 +1,26 @@
+{
+ "phrases": [
+  {
+   "hashToLeaf": {
+    "Eq3yawwDX9EMeAx/wgqcuQ==": {
+     "text": "Hello, world!",
+     "desc": "Hello world message"
+    }
+   },
+   "filepath": "src/components/HelloWorld/useI18n.ts",
+   "line_beg": 4,
+   "col_beg": 14,
+   "line_end": 4,
+   "col_end": 57,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "Hello world message",
+     "text": "Hello, world!"
+    },
+    "m": []
+   }
+  }
+ ],
+ "childParentMappings": {}
+}
