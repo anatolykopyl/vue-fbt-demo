@@ -1,21 +1,10 @@
 import './assets/main.css'
+import {fbtInit} from './i18n'
 
 import { createApp } from 'vue'
-import {init, IntlVariations, type IntlViewerContext} from 'fbt'
 
-import translations from './translatedFbts.json'
 import App from './App.vue'
 
-const viewerContext: IntlViewerContext = {
-  locale: 'ru_RU',
-  GENDER: IntlVariations.GENDER_UNKNOWN,
-}
-
-init({
-  translations,
-  hooks: {
-    getViewerContext: () => viewerContext,
-  }
-})
+fbtInit()
 
 createApp(App).mount('#app')

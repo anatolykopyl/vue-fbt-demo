@@ -12,7 +12,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "manifest": "fbt-manifest --src src",
     "collect-fbts": "fbt-collect --fbt-common-path ./common_strings.json --pretty --manifest < .src_manifest.json > .source_strings.json",
-    "translate-fbts": "fbt-translate --translations translations/*.json --jenkins > src/translatedFbts.json"
+    "translate-fbts": "fbt-translate --translations translations/*.json --jenkins --output-dir src/translatedFbts"
   },
   "dependencies": {
     "babel-plugin-fbt": "^1.0.0",
